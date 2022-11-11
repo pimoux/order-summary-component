@@ -141,4 +141,71 @@
   color: #7280a7;
   font-weight: 900;
 }
+
+.change, .payment, .cancel {
+  cursor: pointer;
+  -webkit-transition: color 0.25s, opacity 0.25s;
+  transition: color 0.25s, opacity 0.25s;
+}
+
+.change:hover {
+  color: #7280a7;
+  text-decoration: none;
+}
+
+.payment:hover {
+  opacity: 0.7;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+}
+
+@media screen and (min-width: 1440px) {
+  #main {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+  .card {
+    width: 450px;
+    height: 700px;
+  }
+  .title {
+    font-size: 28px;
+    margin-top: 2.6rem;
+  }
+  .paragraph {
+    padding: 0 4rem;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  .subscribe {
+    margin: 0 3rem;
+    margin-top: 1.3rem;
+    padding: 1.6rem 0;
+  }
+  .icon-music {
+    -webkit-transform: translateX(-0.2rem);
+            transform: translateX(-0.2rem);
+  }
+  .subscribe-description {
+    font-size: 16px;
+    -webkit-transform: translateX(-2.3rem);
+            transform: translateX(-2.3rem);
+  }
+  .price {
+    margin-top: 0.4rem;
+  }
+  .change {
+    font-size: 14px;
+    -webkit-transform: translateX(0.1rem);
+            transform: translateX(0.1rem);
+  }
+  .confirmation {
+    margin: 0 3rem;
+    margin-top: 1.9rem;
+  }
+  .cancel {
+    margin-top: 2.1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
